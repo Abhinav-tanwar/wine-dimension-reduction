@@ -1,0 +1,8 @@
+{
+  "rows": 178,
+  "features": 13,
+  "components_90": 8,
+  "retained_variance": 0.9201754434577265,
+  "standardized_reconstruction_mse": 0.0798245565422737,
+  "scope": "in-sample descriptive compression, not classification accuracy"
+}

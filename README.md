@@ -30,3 +30,15 @@ Seeds are fixed in source. Validation uses numerical invariants or input/split c
 ## Reports
 
 `report.html` is a ready-to-open summary. To render the R Markdown version after running the analysis, install `rmarkdown` and `knitr`, install Pandoc, and run `rmarkdown::render("report.Rmd")` from the repository root. The optional R Markdown rendering was not executed in the local environment because Pandoc is unavailable.
+
+## Python companion
+
+The same 178-row dataset now has a Python PCA companion under `python/`. Both implementations retain eight components for at least 90% variance; this is descriptive compression, not held-out classification performance.
+
+```sh
+python -m pip install -r python/requirements.txt
+python python/analysis.py
+python -m unittest discover -s python/tests
+```
+
+See [Python methodology and measured results](python/README.md). The original R workflow remains available.

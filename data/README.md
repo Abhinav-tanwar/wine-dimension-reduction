@@ -1,0 +1,1 @@
+Supplied wine_dataset.csv, renamed wine.csv: 178 observations, 13 chemical measurements, and cultivar Class. Class is excluded from PCA and used only for plot coloring. Dataset redistribution provenance and original licensing were not provided; no new dataset license is asserted.

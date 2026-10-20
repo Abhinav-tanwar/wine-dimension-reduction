@@ -1,0 +1,7 @@
+Package: winedimensionreduction
+Title: Wine Dimension Reduction
+Version: 1.0.0
+Authors@R: person("Abhinav", "Tanwar", role = c("aut", "cre"), email = "abhinav.t@careeritjob.com")
+Description: Standardized PCA, variance retention, reconstruction error, and SVD pseudoinverses.
+License: file LICENSE
+Imports: MASS, jsonlite

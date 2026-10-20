@@ -1,2 +1,3 @@
 # wine-dimension-reduction
-Wine chemistry PCA with variance retention, reconstruction diagnostics, and SVD pseudoinverses in R.
+
+Reproducible R analysis. See data/README.md for input provenance.
